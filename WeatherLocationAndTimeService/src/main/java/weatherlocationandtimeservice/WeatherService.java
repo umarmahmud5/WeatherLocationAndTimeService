@@ -20,7 +20,7 @@ import java.util.StringTokenizer;
 
 public final class WeatherService {
 
-    private final String darkSkyKey = "00a138c7ee9cbabff4149de55f25aa18";
+    private final String darkSkyKey = "----------";  //Get a free DarkSky licesnce key 
     private final String darkSkyURL;
     private BufferedReader readWeatherStream;
     private final GatewayIPService gatewayIP;
